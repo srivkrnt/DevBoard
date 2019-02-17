@@ -1,0 +1,16 @@
+{% extends 'forum/base.html' %}
+
+{% block content %}
+  <div class="container">
+  </div>
+  <div class="team-hub">
+    <header> <h4> Dev Hub for your team </h4> </header>
+  </div>
+  <div class="whats-new">
+    <header> <h4> What's new at DevBoard </h4> </header>
+  </div>
+  <div class="demo-banner">
+    <h4> Try DevBoard with your team for free </h4>
+    <a class="get-started-banner" href="{% url 'register' %}"> GET STARTED </a>
+  </div>
+{% endblock %}
