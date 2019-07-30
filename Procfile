@@ -1,1 +1,1 @@
-web: gunicorn sri-devboard.wsgi —-log-file -
+web: gunicorn devboard.wsgi —-log-file -
