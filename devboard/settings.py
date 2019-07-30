@@ -26,7 +26,7 @@ SECRET_KEY = 'a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [‘0.0.0.0’, ‘localhost’, 'sri-devboard.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'sri-devboard.herokuapp.com']
 
 
 # Application definition
